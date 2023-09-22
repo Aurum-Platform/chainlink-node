@@ -1,14 +1,9 @@
-# Chainlink Fun
-> Learn about chainlink by working through basic examples.
-
-## Deploy Chainlink Node
-
 ### Run with Docker
 
 #### Requirements
 - Install [Docker](https://docs.docker.com/get-docker/)
 - Install [Postgres](https://www.postgresql.org/)
-- Create an [Infura](https://infura.io/) account
+- Get an Websocket RPC node (for [Infura](https://infura.io/) account follow the below steps)
   - Click the `Projects` section and create a new project.
   - In the `KEYS` section you will see a list of different credentials. Under `ENDPOINTS` tab change the select to `Ropsten`.
   - Underneath this you will have two links. Notice the `wss://ropsten.infura.io/ws/v3/...` link. You will need this in a second
